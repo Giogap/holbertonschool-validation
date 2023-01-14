@@ -24,7 +24,7 @@ lifecycle is generally staying the same. In this project, you will start to defi
 
     clean: Cleanup the content of the directory dist/
 
-    post: Post: Create a new blog post whose filename and title come from the environment variables POST_TITLE and
-
-    help: prints out the list of targets and their usage.
+    post: Post: Create a new blog post whose filename and title come from the
+    environment variables POST_TITLE and help: prints out the list of targets
+    and their usage.
 
