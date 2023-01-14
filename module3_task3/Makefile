@@ -21,11 +21,11 @@ package: ## target package create a file named awesome-website.zip
 lint: ## The target lint should be updated to lint the files README.md and DEPLOY.md with markdownlint
 				markdownlint "*.md"
 
-unit-tests: ## run unit tests
+unit-tests: ## unit tests
 				@echo "all tests done"
 
-integration-tests: ## run integration-tests
+integration-tests: ## integration-tests
 				@echo "all integration-tests done"
 
-validate: ## run validate
+validate: ## validate
 				@echo "all validations done"
