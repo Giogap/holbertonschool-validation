@@ -17,7 +17,7 @@ package:
 		zip awesome-website.zip awesome-api dist/ 
 
 lint:
-		@markdownlint "*.md"
+		markdownlint "*.md"
 
 unit-tests: ## run unit tests
 		@echo "all tests done"
