@@ -19,7 +19,6 @@
 * Then verify the status of the website in your localhost by clicking the
 `http://localhost:1313/` given by the previous step
 
-
 ## tag
 
 Add tag in deploy
