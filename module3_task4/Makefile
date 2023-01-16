@@ -1,21 +1,28 @@
+help: ## Show help command
+	@sed -ne '/@sed/!s/## //p' Makefile
 
-build:	## Generate the website from the markdown and configuration files in the directory dist/
-		hugo -s . -d dist/
+build:  ## Create Website
+	@hugo
 
-post:	## Create a new blog post whose filename and title come from the environment variables POST_TITLE and POST_NAME
-		hugo new posts/$(POST_NAME).md
-		sed -i 's/title: .*/title:"$(POST_TITLE)"/' content/posts/$(POST_NAME).md 
+clean:  ## Delete content of dist folder
+	@rm -rf dist/*
 
-clean:	## Cleanup the content of the directory dist/
-		rm -rf dist/
+post:  ## Create a post
+	@hugo new ./content/posts/$(POST_NAME).md
+	@sed -i '/title:*/c\title: "$(POST_TITLE)"' ./content/posts/$(POST_NAME).md
 
-help:
-		@sed -ne '/@sed/!s/## //p' Makefile
+package: ## zip website
+	@hugo
+	@zip awesome-website.zip ./dist
 
-package:
-		@hugo
-		@zip awesome-website.zip dist/ 
+lint: ## lint with markdown
+	@markdownlint README.md
+	@markdownlint DEPLOY.md
 
-lint:
-		@markdownlint README.md
-		@markdownlint DEPLOY.md
+unit-tests: ## test file
+
+
+integration-tests: ## integrate file
+
+
+validate: ## valide file
