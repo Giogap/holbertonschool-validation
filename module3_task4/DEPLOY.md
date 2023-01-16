@@ -19,6 +19,7 @@
 * Then verify the status of the website in your localhost by clicking the
 `http://localhost:1313/` given by the previous step
 
-## tag
+## Create a release with the archive and content of DEPLOY.md, triggered by a tag
 
-Add tag in deploy
+* Create a `GitHub Release` using the
+[“softprops/gh-release” GitHub Action](https://github.com/softprops/action-gh-release)
