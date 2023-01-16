@@ -18,7 +18,7 @@ jobs:
       - run: cd module3_task4 && make package
       - run: cd module3_task4 && npm install -g markdownlint-cli && make lint
       - uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/1.0.0')
+        if: startsWith(github.ref, 'refs/tags/1.0.1')
         with:
           files: |
             module3_task4/awesome-website.zip
