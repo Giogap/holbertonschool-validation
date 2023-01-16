@@ -9,12 +9,13 @@ post:	## Create a new blog post whose filename and title come from the environme
 clean:	## Cleanup the content of the directory dist/
 		rm -rf dist/
 
-help: Makefile ## Show this help usage
-		@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
+help:
+		@sed -ne '/@sed/!s/## //p' Makefile
 
 package:
-		hugo
-		zip awesome-website.zip awesome-api dist/ 
+		@hugo
+		@zip awesome-website.zip dist/ 
 
 lint:
-		markdownlint "*.md"
+		@markdownlint README.md
+		@markdownlint DEPLOY.md
