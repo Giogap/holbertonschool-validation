@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 16
       - name: install hugo
-        run: make -C module4_task1 build-dependencies
+        run: make -C module4_task0 build-dependencies
 
       - name: install markdown
         run: npm install -g markdownlint-cli
