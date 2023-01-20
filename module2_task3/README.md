@@ -11,4 +11,5 @@ clean:	 Removes binary and logs
 test:	 Tests the API using curl
 lint:    Lints all go files using golangci-lint
 unit-tests:     Runs all unit-tests using go test
+integration-tests:  Runs integration test using go test
 help:	 Show this help message
