@@ -10,4 +10,5 @@ stop:	 Terminates the execution of awesome-api
 clean:	 Removes binary and logs
 test:	 Tests the API using curl
 lint:    Lints all go files using golangci-lint
+unit-tests:     Runs all unit-tests using go test
 help:	 Show this help message
