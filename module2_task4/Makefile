@@ -1,29 +1,22 @@
-build:	## Builds the API binary file using go
-	make lint
-	go build
+build: check		## Builds a website using gohugo on the dist folder
+		hugo
 
-run:	## Runs the built binary and send everything to awesome.log
-	./awesome-api >./awesome.log 2>&1 &
+clean:		## Cleans the dist folder
+		rm -rf dist
 
-stop:	## Terminates the execution of awesome-api
-	kill $(shell pgrep awesome-api)
+post:		## Create a new blog post whose filename and title come from the environment variables POST_TITLE and POST_NAME
+		hugo new posts/${POST_NAME}.md
+		sed -i "s/title: .*/title: ${POST_TITLE}/" ./content/posts/${POST_NAME}.md
 
-clean:	## Removes binary and logs
-	-make stop
-	-rm ./awesome-api awesome.log coverage*
+check:  ## Lints and check for dead links on markdowns using markdownlint-cli and markdown-link-check
+		markdownlint ./content/posts/*.md
+		markdown-link-check ./content/posts/*.md
 
-test:	## Tests API using go test
-	make unit-tests
-	make integration-tests
+validate: ## Validates dist/index.html using W3C Hbtn validator
+		make build
+		-git clone https://github.com/holbertonschool/W3C-Validator.git
+		-./W3C-Validator/w3c_validator.py ./dist/index.html
+		-rm -rf ./W3C-Validator
 
-lint:	## Lints all the go files using golangci-lint
-	golangci-lint run
-
-unit-tests:	## Runs implemented unit test using go test
-	go test -v -short -coverprofile=coverage-units.out
-
-integration-tests:	## Runs integration test using go test
-	go test -v -coverprofile=coverage-integrations.out
-
-help:	## Show this help message
-	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
+help:		## Show help mesages
+		@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
