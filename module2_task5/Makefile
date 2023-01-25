@@ -34,11 +34,6 @@ clean:	## Removes binary and logs
 		-make stop
 		-rm -rf awesome-api awesome.log coverage* go* ./dist
 
-test:	## Tests API using go test
-		-make build
-		make unit-tests
-		make integration-tests
-
 lint:	## Lints all the go files using golangci-lint
 		golangci-lint run
 
