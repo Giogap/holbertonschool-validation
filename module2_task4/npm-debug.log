@@ -24,15 +24,15 @@
 13 silly mapToRegistry uri https://registry.npmjs.org/markdownlint-cli
 14 verbose request uri https://registry.npmjs.org/markdownlint-cli
 15 verbose request no auth needed
-16 info attempt registry request try #1 at 1:25:04 PM
-17 verbose request id d738e1c1216e2ea5
+16 info attempt registry request try #1 at 1:43:12 PM
+17 verbose request id 731ef4b74fbd7d92
 18 verbose etag W/"3a580f75571d1db97dd0dc4ce95b51dd"
 19 verbose lastModified Sat, 07 Jan 2023 06:56:31 GMT
 20 http request GET https://registry.npmjs.org/markdownlint-cli
 21 http 304 https://registry.npmjs.org/markdownlint-cli
-22 verbose headers { date: 'Wed, 25 Jan 2023 18:25:16 GMT',
+22 verbose headers { date: 'Wed, 25 Jan 2023 18:43:13 GMT',
 22 verbose headers   connection: 'keep-alive',
-22 verbose headers   'cf-ray': '78f30cec3e52f893-MDE',
+22 verbose headers   'cf-ray': '78f32736c9f1c216-MDE',
 22 verbose headers   'cache-control': 'public, max-age=300',
 22 verbose headers   etag: '"3a580f75571d1db97dd0dc4ce95b51dd"',
 22 verbose headers   'last-modified': 'Sat, 07 Jan 2023 06:56:31 GMT',
@@ -41,9 +41,9 @@
 22 verbose headers   'x-amz-replication-status': 'COMPLETED',
 22 verbose headers   server: 'cloudflare' }
 23 silly get cb [ 304,
-23 silly get   { date: 'Wed, 25 Jan 2023 18:25:16 GMT',
+23 silly get   { date: 'Wed, 25 Jan 2023 18:43:13 GMT',
 23 silly get     connection: 'keep-alive',
-23 silly get     'cf-ray': '78f30cec3e52f893-MDE',
+23 silly get     'cf-ray': '78f32736c9f1c216-MDE',
 23 silly get     'cache-control': 'public, max-age=300',
 23 silly get     etag: '"3a580f75571d1db97dd0dc4ce95b51dd"',
 23 silly get     'last-modified': 'Sat, 07 Jan 2023 06:56:31 GMT',
@@ -209,111 +209,192 @@
 113 silly mapToRegistry uri https://registry.npmjs.org/run-con
 114 verbose request uri https://registry.npmjs.org/get-stdin
 115 verbose request no auth needed
-116 info attempt registry request try #1 at 1:25:16 PM
+116 info attempt registry request try #1 at 1:43:12 PM
 117 verbose etag W/"305db4d2a7e9e77b6f1107b37f84cbbd"
 118 verbose lastModified Sat, 18 Jun 2022 07:55:13 GMT
 119 http request GET https://registry.npmjs.org/get-stdin
-120 verbose request uri https://registry.npmjs.org/ignore
+120 verbose request uri https://registry.npmjs.org/glob
 121 verbose request no auth needed
-122 info attempt registry request try #1 at 1:25:16 PM
-123 verbose etag W/"c6139c469e6d0a595b3fcd8fdbf311ea"
-124 verbose lastModified Mon, 19 Dec 2022 16:01:45 GMT
-125 http request GET https://registry.npmjs.org/ignore
-126 verbose request uri https://registry.npmjs.org/glob
+122 info attempt registry request try #1 at 1:43:12 PM
+123 verbose etag W/"4a9429cdc47f425156d5cf764eb374f5"
+124 verbose lastModified Sat, 14 Jan 2023 22:35:35 GMT
+125 http request GET https://registry.npmjs.org/glob
+126 verbose request uri https://registry.npmjs.org/ignore
 127 verbose request no auth needed
-128 info attempt registry request try #1 at 1:25:16 PM
-129 verbose etag W/"4a9429cdc47f425156d5cf764eb374f5"
-130 verbose lastModified Sat, 14 Jan 2023 22:35:35 GMT
-131 http request GET https://registry.npmjs.org/glob
+128 info attempt registry request try #1 at 1:43:12 PM
+129 verbose etag W/"c6139c469e6d0a595b3fcd8fdbf311ea"
+130 verbose lastModified Mon, 19 Dec 2022 16:01:45 GMT
+131 http request GET https://registry.npmjs.org/ignore
 132 verbose request uri https://registry.npmjs.org/commander
 133 verbose request no auth needed
-134 info attempt registry request try #1 at 1:25:16 PM
+134 info attempt registry request try #1 at 1:43:12 PM
 135 verbose etag W/"c247d10e8b6b19b5e989a9b3fd2fba26"
 136 verbose lastModified Sat, 14 Jan 2023 01:53:43 GMT
 137 http request GET https://registry.npmjs.org/commander
 138 verbose request uri https://registry.npmjs.org/js-yaml
 139 verbose request no auth needed
-140 info attempt registry request try #1 at 1:25:16 PM
+140 info attempt registry request try #1 at 1:43:12 PM
 141 verbose etag W/"8748b3ef6c0da130d6d4339dcfc1ddb5"
 142 verbose lastModified Sun, 19 Jun 2022 05:47:22 GMT
 143 http request GET https://registry.npmjs.org/js-yaml
 144 verbose request uri https://registry.npmjs.org/jsonc-parser
 145 verbose request no auth needed
-146 info attempt registry request try #1 at 1:25:16 PM
+146 info attempt registry request try #1 at 1:43:12 PM
 147 verbose etag W/"7ce91aa62a10e4dd500ebf4a952cb4d0"
 148 verbose lastModified Thu, 03 Nov 2022 15:06:49 GMT
 149 http request GET https://registry.npmjs.org/jsonc-parser
-150 verbose request uri https://registry.npmjs.org/minimatch
+150 verbose request uri https://registry.npmjs.org/markdownlint
 151 verbose request no auth needed
-152 info attempt registry request try #1 at 1:25:16 PM
-153 verbose etag W/"56b94124e59ca477d346a2bb9dd5e9b8"
-154 verbose lastModified Tue, 17 Jan 2023 22:17:34 GMT
-155 http request GET https://registry.npmjs.org/minimatch
-156 verbose request uri https://registry.npmjs.org/markdownlint
+152 info attempt registry request try #1 at 1:43:12 PM
+153 verbose etag W/"b8d17119823fc6972b43018f01339ec5"
+154 verbose lastModified Wed, 28 Dec 2022 01:50:16 GMT
+155 http request GET https://registry.npmjs.org/markdownlint
+156 verbose request uri https://registry.npmjs.org/minimatch
 157 verbose request no auth needed
-158 info attempt registry request try #1 at 1:25:16 PM
-159 verbose etag W/"b8d17119823fc6972b43018f01339ec5"
-160 verbose lastModified Wed, 28 Dec 2022 01:50:16 GMT
-161 http request GET https://registry.npmjs.org/markdownlint
+158 info attempt registry request try #1 at 1:43:12 PM
+159 verbose etag W/"e6003856380394cd86bc84ca9bb0a08e"
+160 verbose lastModified Sun, 22 Jan 2023 17:52:07 GMT
+161 http request GET https://registry.npmjs.org/minimatch
 162 verbose request uri https://registry.npmjs.org/run-con
 163 verbose request no auth needed
-164 info attempt registry request try #1 at 1:25:16 PM
+164 info attempt registry request try #1 at 1:43:12 PM
 165 verbose etag W/"054eb0917de6d7cc4351af23f5979b0b"
 166 verbose lastModified Thu, 07 Jul 2022 19:20:14 GMT
 167 http request GET https://registry.npmjs.org/run-con
-168 http 304 https://registry.npmjs.org/get-stdin
-169 verbose headers { date: 'Wed, 25 Jan 2023 18:25:16 GMT',
+168 http 304 https://registry.npmjs.org/commander
+169 verbose headers { date: 'Wed, 25 Jan 2023 18:43:13 GMT',
 169 verbose headers   connection: 'keep-alive',
-169 verbose headers   'cf-ray': '78f30cf04b55f893-MDE',
+169 verbose headers   'cf-ray': '78f327393a99e790-MDE',
+169 verbose headers   age: '8',
 169 verbose headers   'cache-control': 'public, max-age=300',
-169 verbose headers   etag: '"305db4d2a7e9e77b6f1107b37f84cbbd"',
-169 verbose headers   'last-modified': 'Sat, 18 Jun 2022 07:55:13 GMT',
+169 verbose headers   etag: '"c247d10e8b6b19b5e989a9b3fd2fba26"',
+169 verbose headers   'last-modified': 'Sat, 14 Jan 2023 01:53:43 GMT',
 169 verbose headers   vary: 'Accept-Encoding',
 169 verbose headers   'cf-cache-status': 'HIT',
 169 verbose headers   'x-amz-replication-status': 'COMPLETED',
 169 verbose headers   server: 'cloudflare' }
 170 silly get cb [ 304,
-170 silly get   { date: 'Wed, 25 Jan 2023 18:25:16 GMT',
+170 silly get   { date: 'Wed, 25 Jan 2023 18:43:13 GMT',
 170 silly get     connection: 'keep-alive',
-170 silly get     'cf-ray': '78f30cf04b55f893-MDE',
+170 silly get     'cf-ray': '78f327393a99e790-MDE',
+170 silly get     age: '8',
 170 silly get     'cache-control': 'public, max-age=300',
-170 silly get     etag: '"305db4d2a7e9e77b6f1107b37f84cbbd"',
-170 silly get     'last-modified': 'Sat, 18 Jun 2022 07:55:13 GMT',
+170 silly get     etag: '"c247d10e8b6b19b5e989a9b3fd2fba26"',
+170 silly get     'last-modified': 'Sat, 14 Jan 2023 01:53:43 GMT',
 170 silly get     vary: 'Accept-Encoding',
 170 silly get     'cf-cache-status': 'HIT',
 170 silly get     'x-amz-replication-status': 'COMPLETED',
 170 silly get     server: 'cloudflare' } ]
-171 verbose etag https://registry.npmjs.org/get-stdin from cache
-172 verbose get saving get-stdin to /home/giogap/.npm/registry.npmjs.org/get-stdin/.cache.json
+171 verbose etag https://registry.npmjs.org/commander from cache
+172 verbose get saving commander to /home/giogap/.npm/registry.npmjs.org/commander/.cache.json
 173 verbose correctMkdir /home/giogap/.npm correctMkdir not in flight; initializing
-174 verbose stack Error: Missing required argument #1
-174 verbose stack     at andLogAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:31:3)
-174 verbose stack     at fetchPackageMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:51:22)
-174 verbose stack     at resolveWithNewModule (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:455:12)
-174 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:456:7
-174 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
-174 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:37:12
-174 verbose stack     at addRequestedAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:82:5)
-174 verbose stack     at returnAndAddMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:117:7)
-174 verbose stack     at pickVersionFromRegistryDocument (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:134:20)
-174 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
-175 verbose cwd /home/giogap/holbertonschool-validation/module2_task4
-176 error Linux 5.15.79.1-microsoft-standard-WSL2
-177 error argv "/home/giogap/.nvm/versions/node/v6.0.0/bin/node" "/home/giogap/.nvm/versions/node/v6.0.0/bin/npm" "install" "-g" "markdownlint-cli"
-178 error node v6.0.0
-179 error npm  v3.8.6
-180 error code EMISSINGARG
-181 error typeerror Error: Missing required argument #1
-181 error typeerror     at andLogAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:31:3)
-181 error typeerror     at fetchPackageMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:51:22)
-181 error typeerror     at resolveWithNewModule (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:455:12)
-181 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:456:7
-181 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
-181 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:37:12
-181 error typeerror     at addRequestedAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:82:5)
-181 error typeerror     at returnAndAddMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:117:7)
-181 error typeerror     at pickVersionFromRegistryDocument (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:134:20)
-181 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
-182 error typeerror This is an error with npm itself. Please report this error at:
-182 error typeerror     <http://github.com/npm/npm/issues>
-183 verbose exit [ 1, true ]
+174 http 304 https://registry.npmjs.org/glob
+175 verbose headers { date: 'Wed, 25 Jan 2023 18:43:13 GMT',
+175 verbose headers   connection: 'keep-alive',
+175 verbose headers   'cf-ray': '78f327393fb0f887-MDE',
+175 verbose headers   age: '23',
+175 verbose headers   'cache-control': 'public, max-age=300',
+175 verbose headers   etag: '"4a9429cdc47f425156d5cf764eb374f5"',
+175 verbose headers   'last-modified': 'Sat, 14 Jan 2023 22:35:35 GMT',
+175 verbose headers   vary: 'Accept-Encoding',
+175 verbose headers   'cf-cache-status': 'HIT',
+175 verbose headers   'x-amz-replication-status': 'COMPLETED',
+175 verbose headers   server: 'cloudflare' }
+176 silly get cb [ 304,
+176 silly get   { date: 'Wed, 25 Jan 2023 18:43:13 GMT',
+176 silly get     connection: 'keep-alive',
+176 silly get     'cf-ray': '78f327393fb0f887-MDE',
+176 silly get     age: '23',
+176 silly get     'cache-control': 'public, max-age=300',
+176 silly get     etag: '"4a9429cdc47f425156d5cf764eb374f5"',
+176 silly get     'last-modified': 'Sat, 14 Jan 2023 22:35:35 GMT',
+176 silly get     vary: 'Accept-Encoding',
+176 silly get     'cf-cache-status': 'HIT',
+176 silly get     'x-amz-replication-status': 'COMPLETED',
+176 silly get     server: 'cloudflare' } ]
+177 verbose etag https://registry.npmjs.org/glob from cache
+178 verbose get saving glob to /home/giogap/.npm/registry.npmjs.org/glob/.cache.json
+179 verbose correctMkdir /home/giogap/.npm correctMkdir not in flight; initializing
+180 http 304 https://registry.npmjs.org/minimatch
+181 verbose headers { date: 'Wed, 25 Jan 2023 18:43:13 GMT',
+181 verbose headers   connection: 'keep-alive',
+181 verbose headers   'cf-ray': '78f327393b95e3d6-MDE',
+181 verbose headers   age: '23',
+181 verbose headers   'cache-control': 'public, max-age=300',
+181 verbose headers   etag: '"e6003856380394cd86bc84ca9bb0a08e"',
+181 verbose headers   'last-modified': 'Sun, 22 Jan 2023 17:52:07 GMT',
+181 verbose headers   vary: 'Accept-Encoding',
+181 verbose headers   'cf-cache-status': 'HIT',
+181 verbose headers   'x-amz-replication-status': 'COMPLETED',
+181 verbose headers   server: 'cloudflare' }
+182 silly get cb [ 304,
+182 silly get   { date: 'Wed, 25 Jan 2023 18:43:13 GMT',
+182 silly get     connection: 'keep-alive',
+182 silly get     'cf-ray': '78f327393b95e3d6-MDE',
+182 silly get     age: '23',
+182 silly get     'cache-control': 'public, max-age=300',
+182 silly get     etag: '"e6003856380394cd86bc84ca9bb0a08e"',
+182 silly get     'last-modified': 'Sun, 22 Jan 2023 17:52:07 GMT',
+182 silly get     vary: 'Accept-Encoding',
+182 silly get     'cf-cache-status': 'HIT',
+182 silly get     'x-amz-replication-status': 'COMPLETED',
+182 silly get     server: 'cloudflare' } ]
+183 verbose etag https://registry.npmjs.org/minimatch from cache
+184 verbose get saving minimatch to /home/giogap/.npm/registry.npmjs.org/minimatch/.cache.json
+185 verbose correctMkdir /home/giogap/.npm correctMkdir not in flight; initializing
+186 silly resolveWithNewModule glob@8.0.3 checking installable status
+187 silly cache add args [ 'glob@~8.0.3', null ]
+188 verbose cache add spec glob@~8.0.3
+189 silly cache add parsed spec Result {
+189 silly cache add   raw: 'glob@~8.0.3',
+189 silly cache add   scope: null,
+189 silly cache add   name: 'glob',
+189 silly cache add   rawSpec: '~8.0.3',
+189 silly cache add   spec: '>=8.0.3 <8.1.0',
+189 silly cache add   type: 'range' }
+190 silly addNamed glob@>=8.0.3 <8.1.0
+191 verbose addNamed ">=8.0.3 <8.1.0" is a valid semver range for glob
+192 silly addNameRange { name: 'glob', range: '>=8.0.3 <8.1.0', hasData: false }
+193 silly mapToRegistry name glob
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry data Result {
+196 silly mapToRegistry   raw: 'glob',
+196 silly mapToRegistry   scope: null,
+196 silly mapToRegistry   name: 'glob',
+196 silly mapToRegistry   rawSpec: '',
+196 silly mapToRegistry   spec: 'latest',
+196 silly mapToRegistry   type: 'tag' }
+197 silly mapToRegistry uri https://registry.npmjs.org/glob
+198 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+199 verbose stack Error: Missing required argument #1
+199 verbose stack     at andLogAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:31:3)
+199 verbose stack     at fetchPackageMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:51:22)
+199 verbose stack     at resolveWithNewModule (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:455:12)
+199 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:456:7
+199 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+199 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:37:12
+199 verbose stack     at addRequestedAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:82:5)
+199 verbose stack     at returnAndAddMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:117:7)
+199 verbose stack     at pickVersionFromRegistryDocument (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:134:20)
+199 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+200 verbose cwd /home/giogap/holbertonschool-validation/module2_task4
+201 error Linux 5.15.79.1-microsoft-standard-WSL2
+202 error argv "/home/giogap/.nvm/versions/node/v6.0.0/bin/node" "/home/giogap/.nvm/versions/node/v6.0.0/bin/npm" "install" "-g" "markdownlint-cli"
+203 error node v6.0.0
+204 error npm  v3.8.6
+205 error code EMISSINGARG
+206 error typeerror Error: Missing required argument #1
+206 error typeerror     at andLogAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:31:3)
+206 error typeerror     at fetchPackageMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:51:22)
+206 error typeerror     at resolveWithNewModule (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:455:12)
+206 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:456:7
+206 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+206 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:37:12
+206 error typeerror     at addRequestedAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:82:5)
+206 error typeerror     at returnAndAddMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:117:7)
+206 error typeerror     at pickVersionFromRegistryDocument (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:134:20)
+206 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+207 error typeerror This is an error with npm itself. Please report this error at:
+207 error typeerror     <http://github.com/npm/npm/issues>
+208 verbose exit [ 1, true ]
