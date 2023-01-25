@@ -1,0 +1,319 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/giogap/.nvm/versions/node/v6.0.0/bin/node',
+1 verbose cli   '/home/giogap/.nvm/versions/node/v6.0.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'markdownlint-cli' ]
+2 info using npm@3.8.6
+3 info using node@v6.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData markdownlint-cli
+8 silly fetchNamedPackageData markdownlint-cli
+9 silly mapToRegistry name markdownlint-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'markdownlint-cli',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'markdownlint-cli',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/markdownlint-cli
+14 verbose request uri https://registry.npmjs.org/markdownlint-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 1:25:04 PM
+17 verbose request id d738e1c1216e2ea5
+18 verbose etag W/"3a580f75571d1db97dd0dc4ce95b51dd"
+19 verbose lastModified Sat, 07 Jan 2023 06:56:31 GMT
+20 http request GET https://registry.npmjs.org/markdownlint-cli
+21 http 304 https://registry.npmjs.org/markdownlint-cli
+22 verbose headers { date: 'Wed, 25 Jan 2023 18:25:16 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'cf-ray': '78f30cec3e52f893-MDE',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: '"3a580f75571d1db97dd0dc4ce95b51dd"',
+22 verbose headers   'last-modified': 'Sat, 07 Jan 2023 06:56:31 GMT',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'cf-cache-status': 'REVALIDATED',
+22 verbose headers   'x-amz-replication-status': 'COMPLETED',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Wed, 25 Jan 2023 18:25:16 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'cf-ray': '78f30cec3e52f893-MDE',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: '"3a580f75571d1db97dd0dc4ce95b51dd"',
+23 silly get     'last-modified': 'Sat, 07 Jan 2023 06:56:31 GMT',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'cf-cache-status': 'REVALIDATED',
+23 silly get     'x-amz-replication-status': 'COMPLETED',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/markdownlint-cli from cache
+25 verbose get saving markdownlint-cli to /home/giogap/.npm/registry.npmjs.org/markdownlint-cli/.cache.json
+26 verbose correctMkdir /home/giogap/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule markdownlint-cli@0.33.0 checking installable status
+40 silly cache add args [ 'markdownlint-cli', null ]
+41 verbose cache add spec markdownlint-cli
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'markdownlint-cli',
+42 silly cache add   scope: null,
+42 silly cache add   name: 'markdownlint-cli',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed markdownlint-cli@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for markdownlint-cli
+45 info addNameTag [ 'markdownlint-cli', 'latest' ]
+46 silly mapToRegistry name markdownlint-cli
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'markdownlint-cli',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   name: 'markdownlint-cli',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/markdownlint-cli
+51 verbose addNameTag registry:https://registry.npmjs.org/markdownlint-cli not in flight; fetching
+52 verbose get https://registry.npmjs.org/markdownlint-cli not expired, no request
+53 silly addNameTag next cb for markdownlint-cli with tag latest
+54 silly addNamed markdownlint-cli@0.33.0
+55 verbose addNamed "0.33.0" is a plain semver version for markdownlint-cli
+56 silly cache afterAdd markdownlint-cli@0.33.0
+57 verbose afterAdd /home/giogap/.npm/markdownlint-cli/0.33.0/package/package.json not in flight; writing
+58 verbose correctMkdir /home/giogap/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /home/giogap/.npm/markdownlint-cli/0.33.0/package/package.json written
+60 silly fetchNamedPackageData commander
+61 silly mapToRegistry name commander
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'commander',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   name: 'commander',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/commander
+66 silly fetchNamedPackageData get-stdin
+67 silly mapToRegistry name get-stdin
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'get-stdin',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   name: 'get-stdin',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/get-stdin
+72 silly fetchNamedPackageData glob
+73 silly mapToRegistry name glob
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'glob',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'glob',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/glob
+78 silly fetchNamedPackageData ignore
+79 silly mapToRegistry name ignore
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'ignore',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   name: 'ignore',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/ignore
+84 silly fetchNamedPackageData js-yaml
+85 silly mapToRegistry name js-yaml
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'js-yaml',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   name: 'js-yaml',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/js-yaml
+90 silly fetchNamedPackageData jsonc-parser
+91 silly mapToRegistry name jsonc-parser
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'jsonc-parser',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   name: 'jsonc-parser',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/jsonc-parser
+96 silly fetchNamedPackageData markdownlint
+97 silly mapToRegistry name markdownlint
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'markdownlint',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   name: 'markdownlint',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/markdownlint
+102 silly fetchNamedPackageData minimatch
+103 silly mapToRegistry name minimatch
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'minimatch',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   name: 'minimatch',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+108 silly fetchNamedPackageData run-con
+109 silly mapToRegistry name run-con
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: 'run-con',
+112 silly mapToRegistry   scope: null,
+112 silly mapToRegistry   name: 'run-con',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag' }
+113 silly mapToRegistry uri https://registry.npmjs.org/run-con
+114 verbose request uri https://registry.npmjs.org/get-stdin
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 1:25:16 PM
+117 verbose etag W/"305db4d2a7e9e77b6f1107b37f84cbbd"
+118 verbose lastModified Sat, 18 Jun 2022 07:55:13 GMT
+119 http request GET https://registry.npmjs.org/get-stdin
+120 verbose request uri https://registry.npmjs.org/ignore
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 1:25:16 PM
+123 verbose etag W/"c6139c469e6d0a595b3fcd8fdbf311ea"
+124 verbose lastModified Mon, 19 Dec 2022 16:01:45 GMT
+125 http request GET https://registry.npmjs.org/ignore
+126 verbose request uri https://registry.npmjs.org/glob
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 1:25:16 PM
+129 verbose etag W/"4a9429cdc47f425156d5cf764eb374f5"
+130 verbose lastModified Sat, 14 Jan 2023 22:35:35 GMT
+131 http request GET https://registry.npmjs.org/glob
+132 verbose request uri https://registry.npmjs.org/commander
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 1:25:16 PM
+135 verbose etag W/"c247d10e8b6b19b5e989a9b3fd2fba26"
+136 verbose lastModified Sat, 14 Jan 2023 01:53:43 GMT
+137 http request GET https://registry.npmjs.org/commander
+138 verbose request uri https://registry.npmjs.org/js-yaml
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 1:25:16 PM
+141 verbose etag W/"8748b3ef6c0da130d6d4339dcfc1ddb5"
+142 verbose lastModified Sun, 19 Jun 2022 05:47:22 GMT
+143 http request GET https://registry.npmjs.org/js-yaml
+144 verbose request uri https://registry.npmjs.org/jsonc-parser
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 1:25:16 PM
+147 verbose etag W/"7ce91aa62a10e4dd500ebf4a952cb4d0"
+148 verbose lastModified Thu, 03 Nov 2022 15:06:49 GMT
+149 http request GET https://registry.npmjs.org/jsonc-parser
+150 verbose request uri https://registry.npmjs.org/minimatch
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 1:25:16 PM
+153 verbose etag W/"56b94124e59ca477d346a2bb9dd5e9b8"
+154 verbose lastModified Tue, 17 Jan 2023 22:17:34 GMT
+155 http request GET https://registry.npmjs.org/minimatch
+156 verbose request uri https://registry.npmjs.org/markdownlint
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 1:25:16 PM
+159 verbose etag W/"b8d17119823fc6972b43018f01339ec5"
+160 verbose lastModified Wed, 28 Dec 2022 01:50:16 GMT
+161 http request GET https://registry.npmjs.org/markdownlint
+162 verbose request uri https://registry.npmjs.org/run-con
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 1:25:16 PM
+165 verbose etag W/"054eb0917de6d7cc4351af23f5979b0b"
+166 verbose lastModified Thu, 07 Jul 2022 19:20:14 GMT
+167 http request GET https://registry.npmjs.org/run-con
+168 http 304 https://registry.npmjs.org/get-stdin
+169 verbose headers { date: 'Wed, 25 Jan 2023 18:25:16 GMT',
+169 verbose headers   connection: 'keep-alive',
+169 verbose headers   'cf-ray': '78f30cf04b55f893-MDE',
+169 verbose headers   'cache-control': 'public, max-age=300',
+169 verbose headers   etag: '"305db4d2a7e9e77b6f1107b37f84cbbd"',
+169 verbose headers   'last-modified': 'Sat, 18 Jun 2022 07:55:13 GMT',
+169 verbose headers   vary: 'Accept-Encoding',
+169 verbose headers   'cf-cache-status': 'HIT',
+169 verbose headers   'x-amz-replication-status': 'COMPLETED',
+169 verbose headers   server: 'cloudflare' }
+170 silly get cb [ 304,
+170 silly get   { date: 'Wed, 25 Jan 2023 18:25:16 GMT',
+170 silly get     connection: 'keep-alive',
+170 silly get     'cf-ray': '78f30cf04b55f893-MDE',
+170 silly get     'cache-control': 'public, max-age=300',
+170 silly get     etag: '"305db4d2a7e9e77b6f1107b37f84cbbd"',
+170 silly get     'last-modified': 'Sat, 18 Jun 2022 07:55:13 GMT',
+170 silly get     vary: 'Accept-Encoding',
+170 silly get     'cf-cache-status': 'HIT',
+170 silly get     'x-amz-replication-status': 'COMPLETED',
+170 silly get     server: 'cloudflare' } ]
+171 verbose etag https://registry.npmjs.org/get-stdin from cache
+172 verbose get saving get-stdin to /home/giogap/.npm/registry.npmjs.org/get-stdin/.cache.json
+173 verbose correctMkdir /home/giogap/.npm correctMkdir not in flight; initializing
+174 verbose stack Error: Missing required argument #1
+174 verbose stack     at andLogAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:31:3)
+174 verbose stack     at fetchPackageMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:51:22)
+174 verbose stack     at resolveWithNewModule (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:455:12)
+174 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:456:7
+174 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+174 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:37:12
+174 verbose stack     at addRequestedAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:82:5)
+174 verbose stack     at returnAndAddMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:117:7)
+174 verbose stack     at pickVersionFromRegistryDocument (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:134:20)
+174 verbose stack     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+175 verbose cwd /home/giogap/holbertonschool-validation/module2_task4
+176 error Linux 5.15.79.1-microsoft-standard-WSL2
+177 error argv "/home/giogap/.nvm/versions/node/v6.0.0/bin/node" "/home/giogap/.nvm/versions/node/v6.0.0/bin/npm" "install" "-g" "markdownlint-cli"
+178 error node v6.0.0
+179 error npm  v3.8.6
+180 error code EMISSINGARG
+181 error typeerror Error: Missing required argument #1
+181 error typeerror     at andLogAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:31:3)
+181 error typeerror     at fetchPackageMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:51:22)
+181 error typeerror     at resolveWithNewModule (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:455:12)
+181 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/install/deps.js:456:7
+181 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+181 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:37:12
+181 error typeerror     at addRequestedAndFinish (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:82:5)
+181 error typeerror     at returnAndAddMetadata (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:117:7)
+181 error typeerror     at pickVersionFromRegistryDocument (/home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/lib/fetch-package-metadata.js:134:20)
+181 error typeerror     at /home/giogap/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+182 error typeerror This is an error with npm itself. Please report this error at:
+182 error typeerror     <http://github.com/npm/npm/issues>
+183 verbose exit [ 1, true ]
